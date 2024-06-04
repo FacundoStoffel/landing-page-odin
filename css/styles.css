@@ -3,3 +3,22 @@ body{
     margin: 0;
     font-family: "Roboto", sans-serif;
 }
+
+#inicio{
+    background-color: #1F2937;
+    color: #fff;
+}
+
+#frase{
+    background-color: #E5E7EB;
+}
+
+#cartelito{
+    background-color: #3882F6;
+    color: #fff;
+}
+
+#footer{
+    background-color: #1F2937;
+    color: #fff;
+}
