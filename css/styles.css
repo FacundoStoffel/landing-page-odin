@@ -7,7 +7,7 @@ body{
 #inicio{
     background-color: #1F2937;
     color: #fff;
-    padding: 200px;
+    padding: 150px;
 
 }
 
@@ -15,7 +15,7 @@ body{
     text-decoration: none;
     font-size: 24px;
     color: #F9FaF8;
-    font-weight: 600;
+    font-weight: 700;
     margin: 10px 0;
     flex: 1;
 }
@@ -26,7 +26,7 @@ nav{
     right: 0;
     background-color: #1F2937;
     display: flex;
-    padding: 0 200px;
+    padding: 0 150px;
 }
 
 ul{
@@ -50,6 +50,34 @@ li a{
 .header-link{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+#inicio-container{
+    display: flex;
+}
+
+#div-titulo{
+    flex: 1;
+}
+
+#titulo{
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: 800;
+    margin: 0;
+}
+
+#image{
+    background-color: #83838d;
+    opacity: 0.7;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#text-img{
+    text-align: center;
 }
 
 #frase{
