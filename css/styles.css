@@ -58,6 +58,7 @@ li a{
 
 #div-titulo{
     flex: 1;
+    padding: 15px 30px 5px 0;
 }
 
 #titulo{
@@ -65,6 +66,28 @@ li a{
     color: #F9FaF8;
     font-weight: 800;
     margin: 0;
+
+}
+
+#parrafo-titulo{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn{
+    background-color: #3882F6;
+    color: #F9FaF8;
+    border-radius: 5px;
+    padding: 5px 25px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.05);
 }
 
 #image{
@@ -79,6 +102,20 @@ li a{
 #text-img{
     text-align: center;
 }
+
+/*Info section*/
+#info{
+    padding: 40px 150px;
+}
+
+#info-titulo{
+    font-weight: 800;
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+}
+
 
 #frase{
     background-color: #E5E7EB;
