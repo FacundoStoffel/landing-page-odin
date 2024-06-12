@@ -116,6 +116,25 @@ li a{
     margin: 0;
 }
 
+#div-info{
+    display: flex;
+    margin: 40px 70px;
+}
+
+.div-info-cajas{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    margin: 35px;
+}
+
+.caja-div{
+    border: #3882F6 4px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
 
 #frase{
     background-color: #E5E7EB;
