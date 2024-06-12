@@ -135,9 +135,26 @@ li a{
     border-radius: 20px;
 }
 
-
+/*Estilos de la seccion de la frase*/
 #frase{
     background-color: #E5E7EB;
+    padding: 20vh 43vh;
+    color: #1F2937
+}
+
+#frase-parrafo{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+#autor{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: right;
+    margin: 0;
 }
 
 #cartelito{
