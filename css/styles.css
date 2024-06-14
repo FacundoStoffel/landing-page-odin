@@ -52,6 +52,36 @@ li a{
     color: #E5E7EB;
 }
 
+/*animaciones para el nav*/
+.item{
+    line-height: 1.5;
+    position: relative;
+}
+
+.item::before{
+    position: absolute;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.item:hover:before{
+    width: 100%;
+}
+
+.anim:before{
+    left: 50%;
+}
+
+.anim:hover:before{
+    left: 0;
+}
+
+/*titulo e imagen de incio*/
 #inicio-container{
     display: flex;
 }
@@ -198,7 +228,12 @@ li a{
 
 }
 
+/*Estilos del footer*/
 #footer{
     background-color: #1F2937;
     color: #fff;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
